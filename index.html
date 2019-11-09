@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Crystals Game</title>
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--  Document on ready loaded after jQuery is loaded to let page load -->
+    <script> $(document).ready(function () { });</script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Added a link to Font Awesome CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Added a link to a local copy of the Meyerweb reset code-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Added a link to a local css file for this page-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystals Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Content here -->
+        <!-- Crystal Collector Jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="text-center">Crystals Collector</h1>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body" style="background:rgb(161, 161, 233)" ;>
+                    <h3 style="color:white; text-align:center;">Game Directions</h3>
+                    <h5 style="color:white; text-align:center;"> Play until your heart's content. Click on the cyrstals
+                        so that your score is equal to the target score and you win. Go over and you lose. </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="text-center" id="targetScore"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="text-center" id="winCount"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="text-center" id="lossCount"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="text-center" id="currentScore"></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="assets/images/blue.jpeg" class="card-img-top" alt="..." id="blue">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="assets/images/green-transparent.png" class="card-img-top" alt="..." id="green">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="assets/images/red.png" class="card-img-top" alt="..." id="red">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="assets/images/yellow.png" class="card-img-top" id="yellow">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/crystalsgame.js">
+    </script>
+
+
+
+</body>
+
+</html>
