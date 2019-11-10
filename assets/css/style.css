@@ -1,0 +1,13 @@
+#container1 {
+    background-color:rgb(230, 173, 211);
+    color: red;
+    text-align: center;
+    text-decoration-style: dotted;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6em;
+}
